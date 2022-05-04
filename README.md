@@ -11,3 +11,7 @@ https://conexion-circular.netlify.app/
     - Enlace las barras de navegación del Header y el Footer a sus respectivas páginas.
     - Arreglé el "background" del Header de "Inicio" porque se iba un poco más allá del viewport.
     - Añadí el "Header y Footer" creado a las páginas "Nosotros" y "Contacto", para tener la base de cada página de sitio creada.   
+
+- Tomás (04/05/2022):
+    - Añadí las imagenes de cada podcast, con su titulo y un botón en la página "Podcasts".
+    - Implementé un diseño diferente a la que teniamos en un principio, porque al hacerlo realmente no quedaba muy lindo a la vista y se desacomodaba mucho el responsive de las tarjetas.
