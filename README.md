@@ -15,3 +15,7 @@ https://conexion-circular.netlify.app/
 - Tomás (04/05/2022):
     - Añadí las imagenes de cada podcast, con su titulo y un botón en la página "Podcasts".
     - Implementé un diseño diferente a la que teniamos en un principio, porque al hacerlo realmente no quedaba muy lindo a la vista y se desacomodaba mucho el responsive de las tarjetas.
+
+- Tomás (09/05/2022):
+    - Descargué la última versión de Bootstrap y la agregué al proyecto de manera "local".
+    - Corregí los problemas que generaba está última versión en la barra de navegación. 
