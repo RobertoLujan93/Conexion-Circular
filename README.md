@@ -19,3 +19,7 @@ https://conexion-circular.netlify.app/
 - Tomás (09/05/2022):
     - Descargué la última versión de Bootstrap y la agregué al proyecto de manera "local".
     - Corregí los problemas que generaba está última versión en la barra de navegación. 
+    - Añadí un formulario en la página de contactos, le agregué un título y le dí estilos. 
+    - Corregí los problemas de centrado de los textos del banner.
+    - Modifiqué el tamaño de algunas fuentes e imagenes de "podcast" y "contacto", para lograr un mejor responsive.
+    - Añadí un efecto a la barra de navegación en la versión Desktop.
