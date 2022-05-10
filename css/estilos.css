@@ -102,6 +102,68 @@ nav .navbar-nav li a {
     text-decoration: none; }
 
 /* Termina estilos footer */
+.inicio--texto {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-color: #DDFFBC; }
+  .inicio--texto p {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 1.4rem;
+    font-weight: bold; }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .inicio--texto p {
+        font-size: 1.15rem; } }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .inicio--texto p {
+        font-size: 1.3rem; } }
+
+.inicio--imagen {
+  background: url(../imagenes/imagen--incio.jpeg); }
+
+.inicio--cards {
+  display: flex;
+  background-color: #DDFFBC; }
+  @media only screen and (min-width: 0px) and (max-width: 767px) {
+    .inicio--cards {
+      flex-direction: column; } }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .inicio--cards {
+      flex-direction: column; } }
+  .inicio--cards .card {
+    background-color: transparent;
+    border: 1px solid;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 90%;
+    margin-left: 25px;
+    margin-right: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px; }
+    .inicio--cards .card button {
+      background-color: #91C788;
+      color: black;
+      border: 2px solid;
+      border-radius: 5px;
+      padding: 10px 20px;
+      font-size: 1.2rem;
+      transition-duration: 0.5s;
+      margin-top: 35px;
+      margin-bottom: 35px; }
+      @media only screen and (min-width: 0px) and (max-width: 767px) {
+        .inicio--cards .card button {
+          padding: 5px 10px;
+          font-size: 1rem; } }
+      .inicio--cards .card button a {
+        text-decoration: none;
+        color: black; }
+      .inicio--cards .card button:hover {
+        background-color: #52734D;
+        color: black;
+        border: 2px solid; }
+
 /* estilos de la página podcast */
 .contenedor--tarjetas {
   margin: 50px 0px;
@@ -146,6 +208,25 @@ nav .navbar-nav li a {
         @media only screen and (min-width: 768px) and (max-width: 991px) {
           .contenedor--tarjetas .tarjeta .tarjeta--texto p {
             font-size: 1.2rem; } }
+      @media only screen and (min-width: 0px) and (max-width: 767px) {
+        .contenedor--tarjetas .tarjeta .tarjeta--texto .episodio--2 {
+          margin-top: 30px; } }
+      .contenedor--tarjetas .tarjeta .tarjeta--texto button {
+        background-color: #91C788;
+        color: black;
+        border: 2px solid;
+        border-radius: 30px;
+        padding: 10px 20px;
+        font-size: 1.2rem;
+        transition-duration: 0.5s; }
+        @media only screen and (min-width: 0px) and (max-width: 767px) {
+          .contenedor--tarjetas .tarjeta .tarjeta--texto button {
+            padding: 5px 10px;
+            font-size: 1rem; } }
+        .contenedor--tarjetas .tarjeta .tarjeta--texto button:hover {
+          background-color: #DDFFBC;
+          color: black;
+          border: 2px solid; }
 
 .titulo--contacto {
   font-size: 2rem;

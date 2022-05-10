@@ -1,7 +1,8 @@
 # Conexion-Circular
 Proyecto para creación de la página web de Conexión Circular
 
-- Roberto (01/05/2022): Ya están el footer y el header/navbar, falta hacer responsive algunos elementos de la navbar y arreglar el botón del menu hambuerguesa.
+- Roberto (01/05/2022): 
+Ya están el footer y el header/navbar, falta hacer responsive algunos elementos de la navbar y arreglar el botón del menu hambuerguesa.
 Ya también subí el sitio a netlify, te paso el link:
 https://conexion-circular.netlify.app/
 
@@ -23,3 +24,9 @@ https://conexion-circular.netlify.app/
     - Corregí los problemas de centrado de los textos del banner.
     - Modifiqué el tamaño de algunas fuentes e imagenes de "podcast" y "contacto", para lograr un mejor responsive.
     - Añadí un efecto a la barra de navegación en la versión Desktop.
+
+- Roberto (09/05/2022):
+    - Habían desaparecido los íconos del footer en la página de inicio. Ya lo arreglé.
+    - Estilos de los botones de Podcasts.
+    - Puse una media para el episodio 2 porque en vista celular el texto se metía en la imagen.
+    - Completé la páagina de Inicio.
