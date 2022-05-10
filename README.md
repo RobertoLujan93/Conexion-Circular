@@ -29,4 +29,4 @@ https://conexion-circular.netlify.app/
     - Habían desaparecido los íconos del footer en la página de inicio. Ya lo arreglé.
     - Estilos de los botones de Podcasts.
     - Puse una media para el episodio 2 porque en vista celular el texto se metía en la imagen.
-    - Completé la páagina de Inicio.
+    - Completé la página de Inicio.
