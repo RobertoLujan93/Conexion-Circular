@@ -30,3 +30,8 @@ https://conexion-circular.netlify.app/
     - Estilos de los botones de Podcasts.
     - Puse una media para el episodio 2 porque en vista celular el texto se metía en la imagen.
     - Completé la página de Inicio.
+
+- Tomás (12/05/2022):
+    - Hice unas modificaciones en los botones, les modifiqué el color de fondo y les puse animación.
+    - Hice modificaciones en el index.html
+    - Añadí un "modal" de bootstrap, que se abré al presionar los botones de reproducción de los podcast y dentro de ellos puse el capitulo correspondiente. 

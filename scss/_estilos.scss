@@ -68,6 +68,9 @@ nav .navbar-nav li{
 .banner {
     position: relative;
     background: url(../imagenes/Article-Media-economia-circolare.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
     min-height: 100vh;
     max-height: 100vh;
     background-size: cover;

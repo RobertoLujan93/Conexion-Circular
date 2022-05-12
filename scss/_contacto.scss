@@ -12,3 +12,30 @@
         font-size: 1.5rem;    
     }
 }
+
+.form--contacto{
+    form{
+        button {
+            background-color: white;
+            color: rgba(0, 0, 0, 0.5);
+            border: 1px solid;
+            border-radius: 30px;
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            transition-duration: 0.5s;
+            box-shadow: 2px 2px 5px black;
+            // ---Celular--- //
+            @media only screen and (min-width: 0px) and (max-width: 767px){
+                padding: 5px 10px;
+                font-size: 1rem;
+            }
+            &:hover {
+                background-color: #DDFFBC;
+                color: black;
+                border: 1px solid;
+                transform: perspective(1px) scale3d(1.044, 1.044, 1); 
+                transition-duration: 20ms;
+            }
+        }
+    }
+}
