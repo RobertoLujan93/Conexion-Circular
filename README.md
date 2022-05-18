@@ -37,4 +37,5 @@ https://conexion-circular.netlify.app/
     - Añadí un "modal" de bootstrap, que se abré al presionar los botones de reproducción de los podcast y dentro de ellos puse el capitulo correspondiente. 
 
 - Tomás (18/05/2022):
-    - Añadí el SEO a todas las páginas
+    - Añadí el SEO a todas las páginas.
+    - Arreglé los problemas con el responsive del header. 
