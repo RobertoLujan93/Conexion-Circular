@@ -35,3 +35,6 @@ https://conexion-circular.netlify.app/
     - Hice unas modificaciones en los botones, les modifiqué el color de fondo y les puse animación.
     - Hice modificaciones en el index.html
     - Añadí un "modal" de bootstrap, que se abré al presionar los botones de reproducción de los podcast y dentro de ellos puse el capitulo correspondiente. 
+
+- Tomás (18/05/2022):
+    - Añadí el SEO a todas las páginas

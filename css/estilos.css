@@ -78,6 +78,12 @@ nav .navbar-nav li a {
   display: flex;
   justify-content: center;
   align-items: center; }
+  @media only screen and (min-width: 0px) and (max-width: 767px) {
+    .banner {
+      background-size: contain; } }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .banner {
+      background-size: contain; } }
   .banner .row {
     text-align: center;
     display: flex;
