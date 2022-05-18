@@ -101,11 +101,11 @@ nav .navbar-nav li{
             width: 565px;
             // ---Celular--- //
             @media only screen and (min-width: 0px) and (max-width: 767px){
-                width: 340px;
+                width: 380px;
             }
             // ---Tablet--- //
             @media only screen and (min-width: 768px) and (max-width: 991px){
-                width: 450px;
+                width: 480px;
             }
             & h2 {
                 color: white;
@@ -118,11 +118,11 @@ nav .navbar-nav li{
                 text-shadow: 2px 2px 5px black;
                 // ---Celular--- //
                 @media only screen and (min-width: 0px) and (max-width: 767px){
-                    font-size: 1.4rem;
+                    font-size: 1.8rem;
                 }
                 // ---Tablet--- //
                 @media only screen and (min-width: 768px) and (max-width: 991px){
-                    font-size: 1.8rem;
+                    font-size: 2rem;
                 }
             }
         }

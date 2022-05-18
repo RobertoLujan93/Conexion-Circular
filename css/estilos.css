@@ -99,10 +99,10 @@ nav .navbar-nav li a {
       width: 565px; }
       @media only screen and (min-width: 0px) and (max-width: 767px) {
         .banner .row .banner__texto {
-          width: 340px; } }
+          width: 380px; } }
       @media only screen and (min-width: 768px) and (max-width: 991px) {
         .banner .row .banner__texto {
-          width: 450px; } }
+          width: 480px; } }
       .banner .row .banner__texto h2 {
         color: white;
         font-family: "Radio Canada", sans-serif;
@@ -114,10 +114,10 @@ nav .navbar-nav li a {
         text-shadow: 2px 2px 5px black; }
         @media only screen and (min-width: 0px) and (max-width: 767px) {
           .banner .row .banner__texto h2 {
-            font-size: 1.4rem; } }
+            font-size: 1.8rem; } }
         @media only screen and (min-width: 768px) and (max-width: 991px) {
           .banner .row .banner__texto h2 {
-            font-size: 1.8rem; } }
+            font-size: 2rem; } }
 
 /* Termina estilos Header */
 /* Estilos Footer */
