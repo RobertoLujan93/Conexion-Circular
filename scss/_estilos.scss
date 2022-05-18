@@ -67,9 +67,9 @@ nav .navbar-nav li{
 
 .banner {
     position: relative;
-    background: url(../imagenes/Article-Media-economia-circolare.jpg);
+    background: url(../imagenes/header-desktop.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
     background-attachment: fixed;
     background-position: center;
     min-height: 100vh;
@@ -77,6 +77,22 @@ nav .navbar-nav li{
     display: flex;
     justify-content: center;
     align-items: center;
+    // ---Celular--- //
+    @media only screen and (min-width: 0px) and (max-width: 767px){
+        background: url(../imagenes/header-mobile.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+    }
+    // ---Tablet--- //
+    @media only screen and (min-width: 768px) and (max-width: 991px){
+        background: url(../imagenes/header-tablet.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+    }
     & .row {
         text-align: center;
         display: flex;
