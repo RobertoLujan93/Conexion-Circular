@@ -69,21 +69,14 @@ nav .navbar-nav li a {
   position: relative;
   background: url(../imagenes/Article-Media-economia-circolare.jpg);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100% 100%;
   background-attachment: fixed;
+  background-position: center;
   min-height: 100vh;
   max-height: 100vh;
-  background-size: cover;
-  background-position: center;
   display: flex;
   justify-content: center;
   align-items: center; }
-  @media only screen and (min-width: 0px) and (max-width: 767px) {
-    .banner {
-      background-size: contain; } }
-  @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .banner {
-      background-size: contain; } }
   .banner .row {
     text-align: center;
     display: flex;
