@@ -41,4 +41,5 @@ https://conexion-circular.netlify.app/
     - Arreglé los problemas con el responsive del header. 
 
 - Roberto (18/05/2022):
-    - Hice ajustes en las imagenes del header debido a que se perdía la calidad en las imagenes en los modos tablet y celular
+    - Hice ajustes en las imagenes del header debido a que se perdía la calidad en las imagenes en los modos tablet y celular.
+    - Guardé las imagenes como "prueba4" y "prueba5": son nombres temporales, si te parecen como quedaron las imagenes, podemos cambiar esos nombres.
