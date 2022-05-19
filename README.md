@@ -39,3 +39,6 @@ https://conexion-circular.netlify.app/
 - Tomás (18/05/2022):
     - Añadí el SEO a todas las páginas.
     - Arreglé los problemas con el responsive del header. 
+
+- Roberto (18/05/2022):
+    - Hice ajustes en las imagenes del header debido a que se perdía la calidad en las imagenes en los modos tablet y celular
