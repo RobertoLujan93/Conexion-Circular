@@ -79,14 +79,14 @@ nav .navbar-nav li a {
   align-items: center; }
   @media only screen and (min-width: 0px) and (max-width: 767px) {
     .banner {
-      background: url(../imagenes/header-mobile.jpg);
+      background: url(../imagenes/prueba4.jpg);
       background-repeat: no-repeat;
       background-size: cover;
       background-attachment: fixed;
       background-position: center; } }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .banner {
-      background: url(../imagenes/header-tablet.jpg);
+      background: url(../imagenes/prueba6.jpg);
       background-repeat: no-repeat;
       background-size: cover;
       background-attachment: fixed;
