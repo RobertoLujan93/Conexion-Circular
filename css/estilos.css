@@ -150,11 +150,14 @@ nav .navbar-nav li a {
         margin: 100px 30px; } }
 
 .inicio--imagen {
-  background-image: url(../imagenes/bosque.jpg);
+  position: relative;
+  background: url(../imagenes/bosque.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  padding: 200px 0px; }
+  background-position: center;
+  min-height: 50vh;
+  max-height: 50vh; }
 
 .inicio--cards {
   display: flex; }
@@ -164,6 +167,9 @@ nav .navbar-nav li a {
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .inicio--cards {
       flex-direction: column; } }
+  @media only screen and (min-width: 992px) and (max-width: 2000px) {
+    .inicio--cards {
+      max-width: 1700px; } }
   .inicio--cards .card {
     background-color: transparent;
     border: 1px solid;
