@@ -58,5 +58,5 @@ https://conexion-circular.netlify.app/
 
 - Roberto (24/05/2022):
     - Agregué el efecto hover en las imágenes de inicio.
-    - Hice un nuevo archivo scss para las cards de inicio ya que era bastante código.
+    - Hice un nuevo archivo scss para las cards de inicio ya que era bastante código y en caso de tener que hacer cambios, las podamos modificar desde ahí.
     - Mejoré los espacios en las cards de inicio para que se vieran mejor en el responsive.
