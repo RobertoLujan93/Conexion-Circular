@@ -1,0 +1,71 @@
+.inicio--cards {
+    display: flex;
+    margin: 120px 0px;
+    // ---Celular--- //
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+        flex-direction: column;
+        margin: 0px auto;
+    }
+    // ---Tablet--- //
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+        flex-direction: column;
+        margin: 100px auto;
+    }
+    // ---Desktop--- //
+    @media only screen and (min-width: 992px) and (max-width: 2000px) {
+        max-width: 2000px;
+    }
+    .container--card {
+        position: relative;
+        display: flex;
+        text-align: center;
+        justify-content: start;
+        width: 100%;
+        height: 550px;
+        margin: 30px 20px;
+        .image {
+            opacity: 1;
+            display: block;
+            width: 100%;
+            height: auto;
+            transition: .5s ease;
+            backface-visibility: hidden;
+        }
+        .card--effecto {
+            transition: .5s ease;
+            opacity: 0;
+            position: absolute;
+            top: 70%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            text-align: center;
+            .btn--card {
+                background-color: white;
+                color: rgba(0, 0, 0, 0.6);
+                border: 1px solid;
+                border-color: rgba(0, 0, 0, 0.5);;
+                border-radius: 5px;
+                padding: 10px 20px;
+                font-size: 1.2rem;
+                font-weight: bold;
+                transition-duration: 0.5s;
+                box-shadow: 2px 2px 5px black;
+                &:hover {
+                    background-color: #DDFFBC;
+                    color: black;
+                    border: 1px solid;
+                    transform: perspective(1px) scale3d(1.044, 1.044, 1); 
+                    transition-duration: 20ms;
+                }
+            }
+        }
+    }
+}
+
+.container--card:hover .image {
+    opacity: 0.5;
+}
+.container--card:hover .card--effecto {
+    opacity: 1;
+}
