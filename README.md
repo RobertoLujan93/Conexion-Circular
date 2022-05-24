@@ -55,3 +55,8 @@ https://conexion-circular.netlify.app/
     - Vinculé el formulario de contacto con whatsapp.
     - Actualicé las fuentes de todo el sitio. 
     - Cambié las imagenes de las cards del inico, solamente falta agregarle los links y el efecto hover.
+
+- Roberto (24/05/2022):
+    - Agregué el efecto hover en las imágenes de inicio.
+    - Hice un nuevo archivo scss para las cards de inicio ya que era bastante código.
+    - Mejoré los espacios en las cards de inicio para que se vieran mejor en el responsive.
