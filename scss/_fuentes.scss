@@ -1,9 +1,22 @@
-/* Fuente para el banner */ 
-@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@600&display=swap');
-
-$FuenteBanner: 'Radio Canada', sans-serif;
-
 /* Fuente para el nav */
 @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap');
 
 $FuenteNav: 'Prompt', sans-serif;
+
+
+/* Fuente para el banner */ 
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&display=swap');
+
+$FuenteBanner: 'Akshar', sans-serif;
+
+
+/* fuente titulos*/ 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+$fuenteTitulos: 'Dancing Script', cursive;
+
+
+/* fuente para textos */ 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+$fuenteTextos: 'Raleway', sans-serif;

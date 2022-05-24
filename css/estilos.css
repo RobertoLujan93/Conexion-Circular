@@ -1,13 +1,17 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Radio+Canada:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Akshar:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box; }
 
-/* Fuente para el banner */
 /* Fuente para el nav */
+/* Fuente para el banner */
+/* fuente titulos*/
+/* fuente para textos */
 /* En este espacio se hallan los estilos comunes a todas las páginas del sitio */
 /* Estilos Header */
 header {
@@ -17,12 +21,17 @@ header {
 
 .navbar {
   padding: 20px 0; }
-  .navbar .navbar-brand {
-    height: 150px;
-    width: 150px; }
-    .navbar .navbar-brand img {
-      width: 100%;
-      height: 100%; }
+  .navbar .navbar-brand img {
+    width: 180px;
+    height: 180px; }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .navbar .navbar-brand img {
+        width: 120px;
+        height: 120px; } }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .navbar .navbar-brand img {
+        width: 150px;
+        height: 150px; } }
 
 @media (min-width: 992px) {
   nav .navbar-nav li {
@@ -73,9 +82,10 @@ nav .navbar-nav li a {
 
 .banner {
   position: relative;
-  background: url(../imagenes/header.jpg);
+  background: url(../imagenes/header-desktop.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   background-position: center;
   min-height: 100vh;
   max-height: 100vh;
@@ -84,17 +94,17 @@ nav .navbar-nav li a {
   align-items: center; }
   @media only screen and (min-width: 0px) and (max-width: 767px) {
     .banner {
-      background: url(../imagenes/header.jpg);
+      background: url(../imagenes/prueba4.jpg);
       background-repeat: no-repeat;
       background-size: cover;
-      background-position: center;
-      min-height: 78vh;
-      max-height: 78vh; } }
+      background-attachment: fixed;
+      background-position: center; } }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .banner {
-      background: url(../imagenes/header.jpg);
+      background: url(../imagenes/prueba6.jpg);
       background-repeat: no-repeat;
       background-size: cover;
+      background-attachment: fixed;
       background-position: center; } }
   .banner .row {
     text-align: center;
@@ -107,10 +117,10 @@ nav .navbar-nav li a {
           width: 380px; } }
       @media only screen and (min-width: 768px) and (max-width: 991px) {
         .banner .row .banner__texto {
-          width: 450px; } }
+          width: 480px; } }
       .banner .row .banner__texto h2 {
         color: white;
-        font-family: "Radio Canada", sans-serif;
+        font-family: "Akshar", sans-serif;
         margin: 0;
         padding: 0;
         font-size: 2.8em;
@@ -142,34 +152,39 @@ nav .navbar-nav li a {
   text-align: center;
   justify-content: center; }
   .inicio--texto p {
-    margin: 150px 400px;
+    margin: 150px 0px;
+    font-family: "Raleway", sans-serif;
     font-size: 1.4rem;
     font-weight: bold; }
     @media only screen and (min-width: 0px) and (max-width: 767px) {
       .inicio--texto p {
         font-size: 1.15rem;
-        margin: 200px 30px; } }
+        margin: 100px 20px; } }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
       .inicio--texto p {
         font-size: 1.3rem;
-        margin: 120px 100px; } }
+        margin: 100px 30px; } }
 
 .inicio--imagen {
-  background-image: url(../imagenes/pexels-pille-kirsi-1093184.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  padding: 200px 0px; }
+  width: 100%;
+  height: 400px;
+  overflow: hidden; }
+  .inicio--imagen video {
+    width: 100%; }
 
 .inicio--cards {
   display: flex;
-  margin: 150px 0px; }
+  margin: 120px 0px; }
   @media only screen and (min-width: 0px) and (max-width: 767px) {
     .inicio--cards {
-      flex-direction: column; } }
+      flex-direction: column;
+      margin-top: 0px; } }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .inicio--cards {
       flex-direction: column; } }
+  @media only screen and (min-width: 992px) and (max-width: 2000px) {
+    .inicio--cards {
+      max-width: 1700px; } }
   .inicio--cards .card {
     background-color: transparent;
     border: 1px solid;
@@ -180,7 +195,7 @@ nav .navbar-nav li a {
     justify-content: start;
     width: 90%;
     height: 550px;
-    margin: 20px 25px; }
+    margin: 30px 20px; }
     .inicio--cards .card .card-contenedor-imagen {
       width: 100%;
       height: 450px; }
@@ -255,8 +270,9 @@ a {
       align-items: center; }
       .contenedor--tarjetas .tarjeta .tarjeta--texto p {
         text-align: center;
-        font-family: "Radio Canada", sans-serif;
-        font-size: 1.5rem; }
+        font-family: "Raleway", sans-serif;
+        font-size: 1.2rem;
+        font-weight: bold; }
         @media only screen and (min-width: 0px) and (max-width: 767px) {
           .contenedor--tarjetas .tarjeta .tarjeta--texto p {
             font-size: 1rem; } }
@@ -288,19 +304,121 @@ a {
           transform: perspective(1px) scale3d(1.044, 1.044, 1);
           transition-duration: 20ms; }
 
+.nosotros__intro {
+  margin: 100px 0px; }
+  .nosotros__intro div {
+    margin: 0px 200px; }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .nosotros__intro div {
+        margin: 0px 70px; } }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .nosotros__intro div {
+        margin: 0px 100px; } }
+  .nosotros__intro p {
+    text-align: center;
+    font-size: 1.4rem;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold; }
+
+.titulos {
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Dancing Script", cursive; }
+
+.contenedor--nosotros {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap; }
+  @media only screen and (min-width: 0px) and (max-width: 767px) {
+    .contenedor--nosotros {
+      margin-bottom: 100px; } }
+  .contenedor--nosotros .card {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: .5s;
+    margin: 20px 50px 100px 50px; }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .contenedor--nosotros .card {
+        margin: 30px 20px; } }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .contenedor--nosotros .card {
+        margin: 30px 50px; } }
+    .contenedor--nosotros .card:hover {
+      box-shadow: 0 5px 15px #91C788;
+      transform: translateY(-15px); }
+    .contenedor--nosotros .card .head {
+      height: 125px;
+      width: 100%;
+      position: relative; }
+      .contenedor--nosotros .card .head .circle {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        background: #52734D;
+        bottom: 0; }
+      .contenedor--nosotros .card .head .img {
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        background: #fff;
+        padding: 5px;
+        border-radius: 50%;
+        bottom: -30%;
+        left: 50%;
+        transform: translate(-50%); }
+        .contenedor--nosotros .card .head .img img {
+          width: 100%;
+          height: 100%;
+          border-radius: 50%;
+          object-fit: cover; }
+    .contenedor--nosotros .card .description {
+      height: 200px;
+      padding: 40px 20px 20px 20px;
+      border-bottom: solid 1px rgba(6, 74, 76, 0.18);
+      text-align: center; }
+      .contenedor--nosotros .card .description h3 {
+        color: #435f3f; }
+      .contenedor--nosotros .card .description p {
+        margin-top: 20px;
+        font-size: 15px;
+        font-family: "Raleway", sans-serif;
+        font-weight: bold;
+        font-size: 0.9rem; }
+    .contenedor--nosotros .card .contact {
+      width: 100%;
+      height: 75px;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      .contenedor--nosotros .card .contact a {
+        text-decoration: none;
+        color: #fff;
+        background: #52734D;
+        padding: 5px 20px;
+        border-radius: 5px;
+        transition: .3s; }
+        .contenedor--nosotros .card .contact a:hover {
+          background: #91C788; }
+
 .titulo--contacto {
-  font-size: 2rem;
-  font-family: "Radio Canada", sans-serif;
+  font-size: 3rem;
+  font-family: "Dancing Script", cursive;
   text-align: center;
   margin: 50px 0px;
   /* celular */
   /* tablet */ }
   @media only screen and (min-width: 0px) and (max-width: 767px) {
     .titulo--contacto {
-      font-size: 1.1rem; } }
+      font-size: 2rem; } }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .titulo--contacto {
-      font-size: 1.5rem; } }
+      font-size: 2.5rem; } }
 
 .form--contacto form button {
   background-color: white;

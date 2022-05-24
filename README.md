@@ -39,3 +39,18 @@ https://conexion-circular.netlify.app/
 - Tomás (18/05/2022):
     - Añadí el SEO a todas las páginas.
     - Arreglé los problemas con el responsive del header. 
+
+- Roberto (18/05/2022):
+    - Hice ajustes en las imagenes del header debido a que se perdía la calidad en las imagenes en los modos tablet y celular.
+    - Guardé las imagenes como "prueba4" y "prueba5": son nombres temporales, si te parecen como quedaron las imagenes, podemos cambiar esos nombres.
+
+- Roberto (19/05/2022):
+    - Ajustes en el responsive del div "inicio--imagen".
+    - Ajustes en el responsive de las cards de Inicio.
+
+
+- Tomás (23/05/2022):
+    - Terminé la página nosotros. Creé las cards, los titulos y el texto. Todo funciona a la perfección.
+    - cambie la imagen en "inicio", por un video.
+    - Vinculé el formulario de contacto con whatsapp.
+    - Actualicé las fuentes de todo el sitio. 
