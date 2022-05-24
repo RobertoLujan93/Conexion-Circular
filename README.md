@@ -54,3 +54,4 @@ https://conexion-circular.netlify.app/
     - cambie la imagen en "inicio", por un video.
     - Vinculé el formulario de contacto con whatsapp.
     - Actualicé las fuentes de todo el sitio. 
+    - Cambié las imagenes de las cards del inico, solamente falta agregarle los links y el efecto hover.
