@@ -31,6 +31,6 @@ const enviarFormulario =() => {
         let asunto = document.getElementById('asunto').value;
         let mensaje = document.getElementById('mensaje').value;
         let numero= 3743411783;
-var win= window.open(`https://wa.me/${numero}?text=Nombre=%20${nombre}%20Correo=%20${mail}%20Teléfono=%20${telefono}%20Asunto=%20${asunto}%20Mensaje=%20${mensaje}`,'_blank');       
+var win= window.open(`https://wa.me/${numero}?text=Nombre=%20${nombre}%20Correo=%20${mail}%20Asunto=%20${asunto}%20Mensaje=%20${mensaje}`,'_blank');       
 }
 evento.addEventListener('click', enviarFormulario)
