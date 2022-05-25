@@ -27,7 +27,7 @@ const evento = document.getElementById('send')
 const enviarFormulario =() => {
         let nombre = document.getElementById('nombre').value;
         let mail = document.getElementById('mail').value;
-        let telefono = document.getElementById('telefono').value;
+        // let telefono = document.getElementById('telefono').value;
         let asunto = document.getElementById('asunto').value;
         let mensaje = document.getElementById('mensaje').value;
         let numero= 3743411783;
