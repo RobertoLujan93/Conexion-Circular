@@ -61,38 +61,36 @@
         <!-- fomrulario -->
         <div class="container mt-5 mb-5 form--contacto">
             <!-- fomrulario -->
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            
                 <div class="container mb-3">
                     <!-- nombre -->
-                    <label for="nombre_apellido" class="form-label">Nombre y Apellido</label>
-                    <input id="nombreform" type="text" required class="form-control" id="nombre_apellido" placeholder="NOMBRE Y APELLIDO">
+                    <label for="nombre" class="form-label">Nombre y Apellido</label>
+                    <input id="nombre" name="" type="text" required class="form-control" placeholder="NOMBRE Y APELLIDO">
                 </div>
                 <div class="container mb-3">
                     <!-- correo -->
                     <label for="correo" class="form-label">Correo electrónico</label>
-                    <input id ="mailform" type="email" required class="form-control" id="email" placeholder="CORREO">
+                    <input id ="mail" name="" type="email" required class="form-control" placeholder="CORREO">
                 </div>
                 <div class="container mb-3">
                     <!-- telefono -->
                     <label for="telefono" class="form-label">Número de Teléfono</label>
-                    <input itemid="telefonoform" type="text" required class="form-control" id="telefono" placeholder="TELEFONO">
+                    <input itemid="telefono" name="" type="text" required class="form-control" placeholder="TELEFONO">
                 </div>
                 <div class="container mb-3">
                     <!-- asunto -->
                     <label for="asunto" class="form-label">Asunto</label>
-                    <input id ="motivoform" type="text" required class="form-control" id="asunto" placeholder="ASUNTO">
+                    <input id ="asunto" name="" type="text" required class="form-control" placeholder="ASUNTO">
                 </div>
                 <div class="container mb-3">
                     <!-- mensaje -->
                     <label for="mensaje" class="form-label">Escriba su mensaje</label>
-                    <textarea id="mensajeform" class="form-control" required id="mensaje" rows="3"></textarea>
+                    <textarea id="mensaje" name="" class="form-control" required rows="3"></textarea>
                 </div>
-                <div>
-                    <button type="submit" class="m-3">
-                        <a id="WSP" href="" style="color: black;" >Enviar</a>
-                    </button>
-                </div>
-            </form>
+                
+                <button id="send" class="m-3">Enviar</button>
+                
+            
         </div>
         <!-- termina el formulario -->
     </main>
@@ -160,7 +158,8 @@
 
 <!--Scripts-->
 <!--Bootstrap-->
+    <script src="js/main.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
-    <script src="js/wpp.js"></script>
+    
 </body>
 </html>
