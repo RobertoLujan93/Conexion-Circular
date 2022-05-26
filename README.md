@@ -7,7 +7,7 @@ El deploy del proyecto se encuentra en el siguiente link:
 https://conexion-circular.netlify.app/
 
 ## Descripción 
-Conexión Circular es un podcast de sobre Economía Circular y
+Conexión Circular es un podcast sobre Economía Circular y
 Sustentabilidad fundado por Viridiana Bello Huitle y Elga Velásquez.
 </br>
 Tiene como misión difundir estos temas a todos con el objetivo de lograr una transición hacia una vida más sustentable.
