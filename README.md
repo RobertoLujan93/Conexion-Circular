@@ -1,63 +1,28 @@
 # Conexion-Circular
-Proyecto para creación de la página web de Conexión Circular
+Proyecto para creación de la página web de Conexión Circular.
 
-- Roberto (01/05/2022): 
-Ya están el footer y el header/navbar, falta hacer responsive algunos elementos de la navbar y arreglar el botón del menu hambuerguesa.
-Ya también subí el sitio a netlify, te paso el link:
+## Link
+El deploy del proyecto se encuentra en el siguiente link:
+</br>
 https://conexion-circular.netlify.app/
 
-- Tomás (02/05/2022): 
-    - Cambie las fuentes del "banner" y las barras de navegación del Header y Footer (Sujeto a cambios por pedido del Vir y Elga).
-    - Comenté algunos códigos de iconos de "redes sociales" para esconderlos por el momento y enlace todos los demás iconos a sus respectivos "links".
-    - Enlace las barras de navegación del Header y el Footer a sus respectivas páginas.
-    - Arreglé el "background" del Header de "Inicio" porque se iba un poco más allá del viewport.
-    - Añadí el "Header y Footer" creado a las páginas "Nosotros" y "Contacto", para tener la base de cada página de sitio creada.   
+## Descripción 
+Conexión Circular es un podcast de sobre Economía Circular y
+Sustentabilidad fundado por Viridiana Bello Huitle y Elga Velásquez.
+</br>
+Tiene como misión difundir estos temas a todos con el objetivo de lograr una transición hacia una vida más sustentable.
+</br>
 
-- Tomás (04/05/2022):
-    - Añadí las imagenes de cada podcast, con su titulo y un botón en la página "Podcasts".
-    - Implementé un diseño diferente a la que teniamos en un principio, porque al hacerlo realmente no quedaba muy lindo a la vista y se desacomodaba mucho el responsive de las tarjetas.
+La página web se encuentra en proceso de desarrollo por parte de [Roberto Ariel Luján Gutiérrez](https://github.com/RobertoLujan93) y [Tomás Fank](https://github.com/tomasfank).
 
-- Tomás (09/05/2022):
-    - Descargué la última versión de Bootstrap y la agregué al proyecto de manera "local".
-    - Corregí los problemas que generaba está última versión en la barra de navegación. 
-    - Añadí un formulario en la página de contactos, le agregué un título y le dí estilos. 
-    - Corregí los problemas de centrado de los textos del banner.
-    - Modifiqué el tamaño de algunas fuentes e imagenes de "podcast" y "contacto", para lograr un mejor responsive.
-    - Añadí un efecto a la barra de navegación en la versión Desktop.
+## Herramientas utilizadas
+Este sitio web fue desarrollado desde cero con las siguientes herramientas:
+- [![Html5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white&labelColor=101010)](#) : estructura de la página web
+- [![css3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white&labelColor=101010)](#) , [![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white&labelColor=101010)](#) , [![Sass](https://img.shields.io/badge/Sass-bf4080?style=for-the-badge&logo=sass&logoColor=white&labelColor=101010)](#) : estilos de la página web
+- [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white&labelColor=101010)](#) : funcionalidad del formulario de contacto
 
-- Roberto (09/05/2022):
-    - Habían desaparecido los íconos del footer en la página de inicio. Ya lo arreglé.
-    - Estilos de los botones de Podcasts.
-    - Puse una media para el episodio 2 porque en vista celular el texto se metía en la imagen.
-    - Completé la página de Inicio.
+El diseño de la página web comprende medidas responsivas para adaptarse a los diferentes dispostivos principales:
+- Mobile
+- Tablet
+- Desktop
 
-- Tomás (12/05/2022):
-    - Hice unas modificaciones en los botones, les modifiqué el color de fondo y les puse animación.
-    - Hice modificaciones en el index.html
-    - Añadí un "modal" de bootstrap, que se abré al presionar los botones de reproducción de los podcast y dentro de ellos puse el capitulo correspondiente. 
-
-- Tomás (18/05/2022):
-    - Añadí el SEO a todas las páginas.
-    - Arreglé los problemas con el responsive del header. 
-
-- Roberto (18/05/2022):
-    - Hice ajustes en las imagenes del header debido a que se perdía la calidad en las imagenes en los modos tablet y celular.
-    - Guardé las imagenes como "prueba4" y "prueba5": son nombres temporales, si te parecen como quedaron las imagenes, podemos cambiar esos nombres.
-
-- Roberto (19/05/2022):
-    - Ajustes en el responsive del div "inicio--imagen".
-    - Ajustes en el responsive de las cards de Inicio.
-
-
-- Tomás (23/05/2022):
-    - Terminé la página nosotros. Creé las cards, los titulos y el texto. Todo funciona a la perfección.
-    - cambie la imagen en "inicio", por un video.
-    - Vinculé el formulario de contacto con whatsapp.
-    - Actualicé las fuentes de todo el sitio. 
-    - Cambié las imagenes de las cards del inico, solamente falta agregarle los links y el efecto hover.
-
-- Roberto (24/05/2022):
-    - Agregué el efecto hover en las imágenes de inicio.
-    - Ya están los links dentro de las imágenes.
-    - Hice un nuevo archivo scss para las cards de inicio ya que era bastante código y en caso de tener que hacer cambios, las podamos modificar desde ahí.
-    - Mejoré los espacios en las cards de inicio para que se vieran mejor en el responsive.
